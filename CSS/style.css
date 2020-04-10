@@ -1,0 +1,91 @@
+/* GLOBAL STYLES */
+
+body {
+	background-color: #dcdcdc;
+}
+
+/** HEADER **/
+
+.navbar {
+	background-color: #add8e6;
+	border: 1px solid #99badd;
+	padding: 0;
+}
+
+
+/*** LOGO ***/
+
+.navbar-brand {
+	margin-left: 5%;
+}
+
+/*** NAVIGATION MENU ***/
+
+.navbar-toggler {
+	background-color: #dcdcdc;
+}
+
+button {
+	margin-right: 5%;
+}
+
+button:hover, button:focus {
+	background-color: #fbfbf8;
+}
+.navbar-nav a {
+	border: 1px solid #99badd;
+	border-left: none;
+	border-right: none;
+	background-color: #dcdcdc;
+}
+
+
+/** MAIN CONTENT **/
+
+h2 {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+#chicken, #beef, #sushi {
+	margin-bottom: 15px;
+}
+
+.menu-item {
+	position: relative;
+	background-color: #99badd;
+	border-radius: 5px;
+	padding: 10px;
+	padding-bottom: 25px;
+	height: 100%;
+}
+
+.menu-item a {
+	position: absolute;
+	bottom: 0;
+	
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+ 	.container {
+ 		max-width: 100%;
+ 	}
+}
+/*** DESKTOP and TABLET***/
+
+@media (min-width: 768px) {
+
+}
+
+/*** MOBILE ***/
+
+@media (max-width: 767px) {
+	
+}
+
+
+
