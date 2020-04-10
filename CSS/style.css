@@ -68,23 +68,13 @@ h2 {
 
 
 
+/*** Large screens ***/
 
 @media (min-width: 1200px) {
 
  	.container {
  		max-width: 100%;
  	}
-}
-/*** DESKTOP and TABLET***/
-
-@media (min-width: 768px) {
-
-}
-
-/*** MOBILE ***/
-
-@media (max-width: 767px) {
-	
 }
 
 
